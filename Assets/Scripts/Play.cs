@@ -8,7 +8,7 @@ public class Play : MonoBehaviour
     [SerializeField] GameObject Play_Button;
     [SerializeField] GameObject Pause_Button;
     [SerializeField] GameObject Stop_Button;
-    public void Play_Button_Button_Click()
+    public void Play_Button_Click()
     {
         if (isOn) //кнопка нажата
         {
