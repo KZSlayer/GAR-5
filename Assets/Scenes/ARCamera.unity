@@ -199,8 +199,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 985210881}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
-        m_MethodName: Play_Button_Click
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
+        m_MethodName: Stop_Button_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab8012b17a9373b4eb8d8a60d62a4c40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e93b6aba5b5345d4b9e10139bc6532bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -483,7 +483,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 985210881}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
         m_MethodName: Play_Button_Click
         m_Mode: 1
         m_Arguments:
@@ -858,7 +858,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 505216401}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
         m_MethodName: Play_Button_Click
         m_Mode: 1
         m_Arguments:
@@ -1180,12 +1180,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 505216395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f448e6b904dd944d831630adc676e4c, type: 3}
+  m_Script: {fileID: 11500000, guid: d10d702028ce08245980b147bbdfe6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Play_Button: {fileID: 530294098}
   Pause_Button: {fileID: 390352544}
-  Stop_Button: {fileID: 959124722}
 --- !u!1 &530294098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,7 +1281,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 505216401}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
         m_MethodName: Play_Button_Click
         m_Mode: 1
         m_Arguments:
@@ -1916,7 +1915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &959124723
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1957,7 +1956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab8012b17a9373b4eb8d8a60d62a4c40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e93b6aba5b5345d4b9e10139bc6532bb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2032,8 +2031,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 505216401}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
-        m_MethodName: Play_Button_Click
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
+        m_MethodName: Stop_Button_Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2175,12 +2174,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 985210875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f448e6b904dd944d831630adc676e4c, type: 3}
+  m_Script: {fileID: 11500000, guid: d10d702028ce08245980b147bbdfe6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Play_Button: {fileID: 1650178740}
   Pause_Button: {fileID: 361787242}
-  Stop_Button: {fileID: 12148867}
 --- !u!1 &1140188406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,7 +3074,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 985210881}
-        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_TargetAssemblyTypeName: Play_2, Assembly-CSharp
         m_MethodName: Play_Button_Click
         m_Mode: 1
         m_Arguments:
