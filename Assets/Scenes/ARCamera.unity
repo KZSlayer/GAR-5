@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 101561499}
   - component: {fileID: 101561498}
   - component: {fileID: 101561497}
-  - component: {fileID: 101561496}
+  - component: {fileID: 101561500}
   m_Layer: 0
   m_Name: First_Target (1)
   m_TagString: Untagged
@@ -553,25 +553,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &101561496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101561495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 101561498}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tespian
-  mDatasetName: Vuforia/GAR-5.xml
-  mCastedBehaviour: {fileID: 101561498}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &101561497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,12 +630,12 @@ MonoBehaviour:
   mAspectRatio: 1.0518934
   mImageTargetType: 0
   mWidth: 6
-  mHeight: 6.31136
+  mHeight: 6.3113604
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 101561496}
+  mPreview: {fileID: 101561500}
 --- !u!4 &101561499
 Transform:
   m_ObjectHideFlags: 0
@@ -673,6 +654,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &101561500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101561495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 101561498}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tespian
+  mDatasetName: Vuforia/GAR-5.xml
+  mCastedBehaviour: {fileID: 101561498}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &106088079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,7 +4164,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4298,7 +4298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m: {fileID: 2100000, guid: 707867d9f5afb5e4fa143eb6eb723424, type: 2}
   value: 0
-  speedOfValue: 0.01
+  speedOfValue: 0.005
   robot: {fileID: 0}
   hide: 1
 --- !u!95 &717827335
@@ -6454,7 +6454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140188406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9313,7 +9313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m: {fileID: 2100000, guid: 707867d9f5afb5e4fa143eb6eb723424, type: 2}
   value: 1
-  speedOfValue: 0.02
+  speedOfValue: 0.01
   robot: {fileID: 919132148798328915}
   hide: 0
 --- !u!23 &1669065736
@@ -10878,9 +10878,9 @@ MonoBehaviour:
   bias: 2
   timeStep: 0.15
   timeToBeat: 0.05
-  restSmoothTime: 2
+  restSmoothTime: 5
   mat: {fileID: 2100000, guid: b457876751891194ea0162b60dbbf19e, type: 2}
-  intensity: 5.5
+  intensity: 50
   intensityRest: 2
   beatColors:
   - {r: 0, g: 1, b: 1, a: 0}
@@ -13945,9 +13945,9 @@ MonoBehaviour:
   bias: 2
   timeStep: 0.15
   timeToBeat: 0.05
-  restSmoothTime: 2
+  restSmoothTime: 5
   mat: {fileID: 2100000, guid: b457876751891194ea0162b60dbbf19e, type: 2}
-  intensity: 5.5
+  intensity: 50
   intensityRest: 2
   beatColors:
   - {r: 0, g: 1, b: 1, a: 0}
