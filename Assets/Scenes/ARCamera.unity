@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3851,6 +3851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 531862402}
+  - component: {fileID: 531862403}
   m_Layer: 0
   m_Name: spine.005
   m_TagString: Untagged
@@ -3888,6 +3889,22 @@ Transform:
   - {fileID: 1181777216}
   m_Father: {fileID: 86924637}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &531862403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531862401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e9cef483dd5914eb531f59d53302d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endTransform: {fileID: 1719593124}
+  rotationToTarget: 1
+  rotationSpeed: 2
+  ZNotRotation: 1
 --- !u!1 &534420535
 GameObject:
   m_ObjectHideFlags: 0
@@ -18176,6 +18193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1320411542228006377}
+  - component: {fileID: 2626715513593275571}
   m_Layer: 0
   m_Name: spine.005
   m_TagString: Untagged
@@ -18183,6 +18201,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2626715513593275571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626715513593275570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e9cef483dd5914eb531f59d53302d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endTransform: {fileID: 1719593124}
+  rotationToTarget: 1
+  rotationSpeed: 2
+  ZNotRotation: 1
 --- !u!1 &2626715514227388917
 GameObject:
   m_ObjectHideFlags: 0
