@@ -12210,6 +12210,7 @@ GameObject:
   - component: {fileID: 1883127150}
   - component: {fileID: 1883127149}
   - component: {fileID: 1883127148}
+  - component: {fileID: 1883127152}
   m_Layer: 0
   m_Name: "\u0420\u043E\u0431\u043E\u0442 2 \u043F\u0434 \u0432\u044B\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442"
   m_TagString: Untagged
@@ -12249,7 +12250,7 @@ Animator:
   m_GameObject: {fileID: 1883127147}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e5a628f0c5a9eba428532e8d48092b9d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 93f40e679236dec4789a06e14cdcf474, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12323,6 +12324,20 @@ Transform:
   - {fileID: 992966847}
   m_Father: {fileID: 101561499}
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!114 &1883127152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883127147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d40c735b8d1454cab6a08875bb88a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  f: 0
+  anim: {fileID: 1883127149}
 --- !u!1 &1883266772
 GameObject:
   m_ObjectHideFlags: 0
@@ -15421,6 +15436,7 @@ GameObject:
   - component: {fileID: 717827336}
   - component: {fileID: 717827335}
   - component: {fileID: 919132148798328916}
+  - component: {fileID: 919132148798328917}
   m_Layer: 0
   m_Name: "\u0420\u043E\u0431\u043E\u0442 2 \u043F\u0434 \u0432\u044B\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u0435\u0442"
   m_TagString: Untagged
@@ -15450,6 +15466,20 @@ MonoBehaviour:
   beatColors:
   - {r: 0, g: 1, b: 1, a: 0}
   restColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &919132148798328917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148798328915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76d40c735b8d1454cab6a08875bb88a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  f: 0
+  anim: {fileID: 717827335}
 --- !u!4 &989462228787907419
 Transform:
   m_ObjectHideFlags: 0
